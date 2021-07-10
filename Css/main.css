@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+header {
+    width: 100%;
+    background-color: #881d22;
+    
+}
+header .static-header {
+    display: grid;
+    width: 100%;
+    height: 70px;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ffffff;
+}
+header .static-header .left-static-header {
+    padding-left: 5%;
+}
+header .static-header .left-static-header a {
+    display: inline;
+    padding-left: 15px;
+}
+header .static-header .left-static-header a img {
+    padding-top: 15px;
+    height: 40px;
+    align-items: center;
+    transition: transform 0.5s;
+}
+header .static-header .left-static-header a img:hover {
+    transform: scale(1.4);
+}
+header .static-header .right-static-header {
+    padding-left: 80%;
+}
+header .static-header .right-static-header img {
+    height: 70px;
+}
+header .navigation {
+    height: 50px;
+}
+header .navigation nav {
+    padding-top: 12.5px;
+    margin: auto;
+    justify-content: center;    
+    width: 320px;
+}
+header .navigation nav div {
+    margin: auto;
+    width: 250px;
+}
+header .navigation nav div a {
+    padding-left: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.5s;
+
+}
+header .navigation nav div a:hover {
+    color: #090909;
+}
+main {
+    width: 100%;
+    background-color: #ffffff;
+}
+main .intro-container {
+    position: relative;
+    width: 100%;
+    height: 830px;
+    background-image: url("../Assets/Intro-2-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+}
+main .intro-container .intro-tittle-container {
+    padding-top: 20%;
+    padding-bottom: 30px
+}
+main .intro-container .intro-tittle-container h1 {
+    margin: auto;
+    padding: 10px 30px;
+    width: 300px;
+    font-size: 55px;
+    background-color: #881d22;
+    color: #ffffff;
+    transition: transform 0.9s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+main .intro-container .intro-tittle-container h1:hover {
+    transform: translate(0, -50px);
+
+}
+main .intro-container div a {
+    padding: 10px 25px;
+    background-color: #881d22;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: background-color 0.5s cubic-bezier(0.5, 0, 0.75, 0);
+}
+main .intro-container div a:hover {
+    background-color: #2f2f2d;
+}
+main .resume-container {
+    height: auto;
+    padding-bottom: 60px;
+    width: 100%;
+}
+main .resume-container .resume-text-container {
+    margin: auto;
+    padding-top: 80px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+main .resume-container .resume-text-container .resume-left-text-container {
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 80%;
+}
+main .resume-container .resume-text-container .resume-left-text-container h2 {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 30px;
+    color: #881d22;
+}
+main .resume-container .resume-text-container .resume-left-text-container p {
+    padding-bottom: 40px;
+    text-align: justify;
+}
+main .resume-container .resume-text-container .resume-left-text-container a {
+    margin-bottom: 10px;
+    padding: 10px 30px;
+    text-decoration: none;
+    background-color: #881d22;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: background-color 0.65s;
+}
+main .resume-container .resume-text-container .resume-left-text-container a:hover {
+    background-color: #2f2f2d;
+}
+main .resume-container .resume-text-container .resume-right-text-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+main .resume-container .resume-text-container .resume-right-text-container div {
+    padding: 10px;
+}
+main .resume-container .resume-text-container .resume-right-text-container div img {
+    width: 100%;
+    max-height: 190px;
+    transition: transform 0.4s ;
+}
+main .resume-container .resume-text-container .resume-right-text-container div img:hover {
+    transform: scale(1.2);
+}
+main .place-container {
+    padding-top: 60px;
+}
+main .place-container .image-place-container{
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 97%;
+    height: 450px;
+    background-image: url("../Assets/Lugar-image.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main .place-container .image-place-container h2 {
+    padding: 200px 0;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+    color: #FFFFFF;
+}
+main .place-container .place-container-location {
+    margin: auto;
+    width: 90%;
+}
+main .place-container .place-container-location .ubication-container {
+    margin-bottom: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+main .place-container .place-container-location .ubication-container h2 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #881d22;
+    font-size: 25px;
+}
+main .place-container .place-container-location .ubication-container p {
+    padding-left: 10%;
+    font-weight: bold;
+    font-size: 20px;
+}
+main .place-container .place-container-location .place-map-container {
+    margin: 20px;
+}
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #881d22;
+}
+footer section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    text-align: center;
+    background-color: #881d22;
+}
+footer section h2 {
+    padding-bottom: 10px;
+    color: #FFFFFF;
+}
+footer section p {
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+footer section a {
+    padding: 5px 10px;
+    color: #090909;
+    text-decoration: none;
+    background-color: #ffffff;
+    border-radius: 5px;
+    transition: background-color 0.5s linear;
+}
+footer section a:hover {
+    background-color: #9b9ea3;
+}

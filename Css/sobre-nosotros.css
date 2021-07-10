@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+header {
+    width: 100%;
+    background-color: #881d22;
+    
+}
+header .static-header {
+    display: grid;
+    width: 100%;
+    height: 70px;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ffffff;
+}
+header .static-header .left-static-header {
+    padding-left: 5%;
+}
+header .static-header .left-static-header a {
+    display: inline;
+    padding-left: 15px;
+}
+header .static-header .left-static-header a img {
+    padding-top: 15px;
+    height: 40px;
+    align-items: center;
+    transition: transform 0.5s;
+}
+header .static-header .left-static-header a img:hover {
+    transform: scale(1.4);
+}
+header .static-header .right-static-header {
+    padding-left: 80%;
+}
+header .static-header .right-static-header img {
+    height: 70px;
+}
+header .navigation {
+    height: 50px;
+}
+header .navigation nav {
+    padding-top: 12.5px;
+    margin: auto;
+    justify-content: center;    
+    width: 320px;
+}
+header .navigation nav div {
+    margin: auto;
+    width: 250px;
+}
+header .navigation nav div a {
+    padding-left: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.5s;
+
+}
+header .navigation nav div a:hover {
+    color: #090909;
+}
+main {
+    background-color: #FFFFFF;
+}
+main .Introduction-container {
+    display: grid;
+    width: 100%;
+    height: 600px;
+    grid-template-columns: 1fr 1fr;
+    background: rgb(255,255,255);
+    background: linear-gradient(350deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(136,29,34,1) 50%);
+}
+main .Introduction-container .left-intro-container {
+    margin: 0 auto;
+    width: 80%;
+}
+main .Introduction-container .left-intro-container h1 {
+    padding-top: 40px;
+    font-size: 90px;
+    font-weight: 300;
+    color: #ffffff;
+}
+main .Introduction-container .right-intro-container {
+    margin: auto;
+    margin-bottom: 180px;
+    width: 50%;
+    height: 50%;
+}
+main .Introduction-container .right-intro-container img {
+    width: 100%;
+    border-radius: 50%;
+}
+main .restaurant-container {
+    display: grid;
+    margin: auto;
+    width: 90%;
+    grid-template-columns: 1fr 1fr;
+}
+main .restaurant-container .left-restaurant-container {
+    display: grid;
+    margin: auto;
+    width: 97%;
+    grid-template-columns: 1fr 1fr;
+}
+main .restaurant-container .left-restaurant-container img {
+    margin: 5px;
+    width: 95%;
+    max-width: 245px;
+    max-height: 245px;
+    transition: transform 0.3s linear;
+}
+main .restaurant-container .left-restaurant-container img:hover {
+    transform: scale(1.1);
+}
+main .restaurant-container .right-restaurant-container {
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 95%;
+}
+main .restaurant-container .right-restaurant-container h2 {
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+    color: #881d22;
+}
+main .restaurant-container .right-restaurant-container p {
+    text-align: justify;
+    font-size: 18px;
+}
+main .principal-profile-container {
+    display: grid;
+    margin: 50px auto;
+    margin-bottom: 80px;
+    width: 85%;
+    grid-template-columns: 1fr 1fr;
+}
+main .principal-profile-container .profile-container {
+    margin: auto;
+    width: 80%;
+    background-color: #881d22;
+    border-radius: 8px;
+    transition: transform 0.25s linear;
+}
+main .principal-profile-container .profile-container:hover {
+    transform: scale(1.2);
+}
+main .principal-profile-container .profile-container div {
+    position: relative;
+    padding: 30px 0;
+    text-align: center;
+}
+main .principal-profile-container .profile-container div img {
+    position: relative;
+    width: 70%;
+    text-align: center;
+    border-radius: 50%;
+}
+main .principal-profile-container .profile-container h3 {
+    text-align: center;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+main .principal-profile-container .profile-container p {
+    padding-bottom: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+main .coomeva-video-container {
+    margin: 0 auto;
+    width: 55%;
+}
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #881d22;
+}
+footer section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    text-align: center;
+    background-color: #881d22;
+}
+footer section h2 {
+    padding-bottom: 10px;
+    color: #FFFFFF;
+}
+footer section p {
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+footer section a {
+    padding: 5px 10px;
+    color: #090909;
+    text-decoration: none;
+    background-color: #ffffff;
+    border-radius: 5px;
+    transition: background-color 0.5s linear;
+}
+footer section a:hover {
+    background-color: #9b9ea3;
+}

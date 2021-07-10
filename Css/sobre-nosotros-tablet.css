@@ -1,0 +1,22 @@
+header .static-header .right-static-header {
+    padding-left: 50%;
+}
+main .Introduction-container {
+    grid-template-columns: 1fr;
+    padding-bottom: 90px;
+}
+main .Introduction-container .left-intro-container h1 {
+    font-size: 70px;
+}
+main .restaurant-container {
+    grid-template-columns: 1fr;
+}
+main .principal-profile-container {
+    grid-template-columns: 1fr;
+}
+main .principal-profile-container .profile-container {
+    margin-bottom: 50px;
+}
+main .coomeva-video-container {
+    width: 90%;
+}

@@ -1,0 +1,25 @@
+header .static-header .right-static-header {
+    padding-left: 50%;
+}
+main .intro-container .intro-tittle-container h1 {
+    font-size: 40px;
+    width: 250px;
+}
+main .intro-container {
+    height: auto;
+}
+main .intro-container .intro-button-container {
+    padding-bottom: 120px;
+}
+main .resume-container .resume-text-container {
+    grid-template-columns: 1fr;
+}
+main .resume-container .resume-text-container .resume-left-text-container h2 {
+    width: 250px;
+}
+main .resume-container .resume-text-container .resume-left-text-container {
+    margin-bottom: 10%;
+}
+main .place-container .place-container-location .ubication-container {
+    grid-template-columns: 1fr;
+}
